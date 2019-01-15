@@ -171,7 +171,6 @@ footer a:hover{
 /* EDUCATION */
 .education {
     clear: both;
-    /* background-color: orange; */
     width: 80%;
     margin: -16px auto;
     padding: 1.2em;
@@ -180,7 +179,6 @@ footer a:hover{
 /* REFERENCE */
 .reference {
     clear: both;
-    /* background-color: purple; */
     width: 80%;
     margin: 0 auto;
     padding: 1.2em;
