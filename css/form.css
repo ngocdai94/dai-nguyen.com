@@ -1,0 +1,115 @@
+/* Start form and reCAPTCHA styles */
+html, body{
+    background-color: #fff;
+}
+
+body {
+    overflow: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+form {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* writes to small text above reCAPTCHA upon failure */
+.dateFeedback{
+    font-style:italic;
+    font-size:70%;
+    font-weight:bold;
+    color:#f00;
+}
+
+input:required {
+    border-radius: 25px;
+}
+
+input:optional, textarea:optional {
+    background-color:#f1f1f1;
+    border:1px solid #ccc;
+    outline: none;
+}
+
+input[type="submit"], input[type="button"] {
+    background-color: white;
+    color: black; 
+    font-size: 0.8em;
+    font-weight: 600;
+    border-radius: 0px;
+    border: 2px solid #ccc;
+    padding: 10px 35px;
+    outline: none;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    background-color:#009fff;
+    text-decoration: none;
+    outline: none;
+}
+
+input[type="submit"]:active, input[type="button"]:active {
+    background-color: green;
+    outline: none;
+}
+
+input[type=text], input[type=email], textarea{
+    font-size: 0.8em;
+    font-weight: 600;
+    border: 2px solid #ccc;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+fieldset {
+    border: 1px none #ccc;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+legend {
+    margin-left: 0.5em;
+    padding: 0.5em 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.g-recaptcha {
+    margin-bottom: 10px;
+}
+
+.g-recaptcha > div{
+    margin: 0 auto;
+}
+/* End of form and reCAPTCHA styles */
+
+/* START RESPONSIVE STYLES */
+/* DESKTOP */
+@media all and (min-width:1400px) {
+    
+}
+ 
+/* TABLET */
+@media all and (min-width:731px) and (max-width:1399px) {
+   
+}
+ 
+ 
+/* PHONE */
+@media all and (max-width:730px) {
+    
+}
