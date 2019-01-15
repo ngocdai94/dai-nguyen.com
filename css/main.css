@@ -75,9 +75,7 @@ footer a:hover{
     width: 60%;
 }
 
-/* More About Me Button, 
-and Hidden Paragraphs
-*/
+/* More About Me Button, and Hidden Paragraphs */
 #moreAboutMeButton {
     background-color:#484848;
     color: #f5f5f5; 
@@ -165,7 +163,6 @@ and Hidden Paragraphs
 /* EXPERIENCE */
 .experience {
     clear: both;
-    /* background-color: aqua; */
     width: 80%;
     margin: 0 auto;
     padding: 1.2em;
@@ -273,7 +270,6 @@ li > p {
         width: 45%;
     }
 
-    /* Images Format */
     .profilePhoto {
         width: 100%;
         margin-top: 55px;
@@ -308,7 +304,6 @@ li > p {
         width: 45%;
     }
 
-    /* Images Format */
     .profilePhoto {
         width: 100%;
         margin-top: 55px;
@@ -321,7 +316,8 @@ li > p {
  
  
 /* PHONE */
-@media all and (max-width:730px) {
+/* and (min-width:321px) */
+@media all  and (max-width:730px) {
     .headerBackgroundImage {
         background-image: url(/imgs/logoBackground_2.jpg);
         background-size: 100% 100%;
@@ -345,13 +341,103 @@ li > p {
         margin-top: -20px;
     }
 
-    /* Images Format */
     .profilePhoto {
         width: 100%;
         margin-top: 15px;
     }
 
+    .infoTable > h2{
+        font-size: 1.4em;
+    }
+
+    .tableCell_1 {
+        width: 20%;
+        margin-left: 15px;
+        margin-right: 25px;
+        font-size: 1.4em;
+    }
+    
+    .tableCell_2 {
+        font-size: 1.4em;
+    }
+
+    .socialNetwork a{
+        padding: 12px 15px;
+    }
+
+    .reference {
+        width: 90%;
+    }
+
+    .experience > h1, .education > h1, .reference > h1{
+        font-size: 1.5em;
+        text-decoration: underline;
+    }
+
+    li > h2, .reference > h2{
+        font-size: 1.2em;
+    }
+
+    li > h3, .reference > h3{
+        font-size: 1em;
+    }
+
+    li > h4, .reference > h4, .reference a{
+        font-size: 0.8em;
+    }
+
+    li > p, .reference > p{
+        font-size: 1em;
+    }
+}
+
+/* SMALLER PHONE */
+@media all and (max-width:380px) {
+    .infoTable > h2{
+        font-size: 1.3em;
+    }
+
+    .tableCell_1 {
+        width: 20%;
+        margin-left: 15px;
+        margin-right: 25px;
+        font-size: 1.2em;
+    }
+    
+    .tableCell_2 {
+        font-size: 1.2em;
+    }
+
     .socialNetwork{
         margin-top: 10px;
+    }
+
+    .socialNetwork a{
+        padding: 5px;
+    }
+
+    .reference {
+        width: 90%;
+    }
+
+    .experience > h1, .education > h1, .reference > h1{
+        font-size: 1.3em;
+        text-decoration: underline;
+    }
+
+    li > h2, .reference > h2{
+        font-size: 0.9em;
+    }
+
+    li > h3, .reference > h3{
+        font-size: 0.7em;
+    }
+
+    li > h4, .reference > h4, .reference a{
+        font-size: 0.7em;
+    }
+
+    li > p, .reference > p{
+        font-size: 0.6em;
     }
 }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Contact</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" href="https://afeld.github.io/emoji-css/emoji.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127509718-1">
+    </script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127509718-1');
+    </script>
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="store.html">Store</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <h2>Insterested in networking product and need my consultant?
+        Fill out the form below to get connect <i class="em em-smile"></i></h2>
+
+    <!-- "name" atribute will be benificial when using on Server Side -->
+    <form class="form-1" action="result.html" method="POST">
+        <fieldset>
+            <legend>Let's get in touch!</legend>
+
+            <label for="firstName">First Name</label> <br>
+            <input name="firstName" type="text" id="firstName" placeholder="Enter your first name" required="required" />
+            <br>
+
+            <label for="lastName">Last Name</label> <br>
+            <input name="lastName" type="text" id="lastName" placeholder="Enter your last name" required="required" />
+            <br>
+
+            <label for="emailAddress">E-mail </label> <br>
+            <input name="emailAddress" type="email" id="emailAddress" placeholder="Enter your e-mail address" required="required" />
+            <br>
+
+            <label for="subject">Subject</label> <br>
+            <input name="subject" type="text" id="subject" placeholder="Enter your subject here" /> <br>
+
+            <p>What solutions and product are you interested in?<br>
+                <select>
+                    <optgroup label="Network and Wifi Solution">
+                        <option value="netWIFI">Network and Wifi Solution</option>
+                    </optgroup>
+
+                    <optgroup label="NVR Surveilance">
+                        <option value="nvr10"> NVR 10</option>
+                        <option value="nvr20"> NVR 20</option>
+                    </optgroup>
+
+                    <optgroup label="Other">
+                        <option value="general">General Questions</option>
+                    </optgroup>
+                </select>
+            </p>
+
+            <label for="message">Message</label> <br>
+            <textarea rows="5" cols="20" id="message" placeholder="Enter your message here"></textarea> <br>
+
+            <br>
+            <input type="submit" value="SEND" />
+        </fieldset>
+    </form>
+
+    <br>
+    <p>
+        <b>Note:</b>
+        <br>
+        This is a test form, your information will not be sent to any server.
+        <br>
+        Also, my website is encrypted <i class="em em-lock"></i>, and it will not steal your information!
+    </p>
+</body>
+
+</html>

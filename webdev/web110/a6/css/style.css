@@ -1,0 +1,220 @@
+/* Format all text font-type */
+/* !important ensure that nothing can override what is set in this style */
+* {
+    font-family: Times, Arial, Helvetica, sans-serif !important;
+}
+
+/* All page's body format */
+body{
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* --------------------- NAVIGATION LINKS FOR ALL PAGES ------------------ */
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover link */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* ------------------------------- END ------------------------------------ */
+
+/* ----------------- MAIN PAGE, SUB PAGES, AND OTHER ELEMENTS ------------  */
+/* Format showcase content section */
+.showcaseContents{
+    text-align: left;
+    font-size: 15pt;
+    color: #fff;
+    background-color: #222;
+    padding: inherit;
+    margin-bottom: inherit;
+}
+
+/* Format solution section on main page and solution page */
+.solutionContents{
+    padding: 10px;
+    background-color: #c1d0dbf1;;
+    margin-top: 10px;
+    margin-bottom: inherit;
+}
+
+.solutionContents a:link, .solutionContents a:visited{
+    font-size: 18pt;
+    font-weight: bold;
+    color: black ;
+    text-decoration: none;
+}
+
+.solutionContents a:hover {
+    color: rgb(7, 4, 158);
+    text-decoration: underline;
+}
+
+/* Table Elements Format*/
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+th{
+    font-size: 30pt;
+}
+td.NVR{
+    text-align: left;
+    padding: 10px;
+}
+
+/* Profile section sormat */
+.aboutDN{
+    background-color: #222;
+    color: #fff;
+    padding: inherit;
+    margin-bottom: inherit;
+}
+.aboutBody{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.profilePhoto {
+    display: block;
+    float: left;
+    width: 350px;
+    border: 5px solid white;
+}
+
+.profileContent{
+    display: inline-block;
+    max-width: 550px;
+    padding: 20px; 
+}
+
+/* Contact Section */
+.contact{
+    /* clear will help to 
+        elliminate all overflow content */
+    clear: both;
+    background-color: #f5f5f5;
+    padding: inherit;
+    margin-bottom: inherit;
+}
+/* ------------------------------- END ------------------------------------ */
+
+
+/* ------------------------ IMAGES FORMAT --------------------------------*/
+img{
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.solution{
+    width: 80%;
+    height: auto;
+}
+
+img#profile, img.showcaseImages{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+img#contactUs{
+    width: 20%;
+    height: auto;
+    padding: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img#logo{
+    width: 40%;
+    height: auto;
+    padding: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* ----------------------------- END ---------------------------------------*/
+
+/* ---------------------------- FORM -------------------------------------- */
+/* Form format on the main page */
+form.form-1{
+    text-align: left;
+    padding: 20px;
+    width:  50%;
+    margin: auto;
+}
+
+/* Form format on the submission result page */
+form.form-2{
+    text-align: left;
+    padding: 20px;
+    width:  40%;
+    margin: auto;
+}
+
+/* Field set background color */
+fieldset{
+    background-color: mintcream;
+    border: 5px solid slategrey;
+}
+
+/* Title of the main form */
+legend{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+/* Format Input */
+input{
+    border-radius: 10px;
+    padding: 8px;
+}
+
+textarea {
+    border-radius: 4px;
+    padding: 8px;
+    width: 150px;
+}
+/* ----------------------------- END ---------------------------------------- */
+
+/* Responsive layout - when the screen is less than 700px wide,
+make the navigation links stack on top of each other instead of
+next to each other */
+@media screen and (max-width: 700px) {
+    .topnav a{
+        float: none;
+        width: 100%;
+    }
+
+    .aboutBody, .profileContent, .profilePhoto{
+        display: block;
+        float: none;
+        width: 80%;
+    }
+}
+
+
