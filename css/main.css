@@ -315,8 +315,7 @@ li > p {
 }
  
  
-/* PHONE */
-/* and (min-width:321px) */
+/* BIGGER PHONE */
 @media all  and (max-width:730px) {
     .headerBackgroundImage {
         background-image: url(/imgs/logoBackground_2.jpg);
@@ -362,7 +361,7 @@ li > p {
     }
 
     .socialNetwork a{
-        padding: 12px 15px;
+        padding: 12px 10px;
     }
 
     .reference {
