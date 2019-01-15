@@ -3,9 +3,12 @@ The '*' element is called CSS Selector. It will select all elements
 CSS Sector: https://www.w3schools.com/cssref/sel_all.asp
 CSS Website Layout: https://www.w3schools.com/css/css_website_layout.asp
 */
-* {
+html {
     box-sizing: border-box;
     font-family: 'Josefin Sans', Tahoma, Geneva, Verdana, sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
 body {
