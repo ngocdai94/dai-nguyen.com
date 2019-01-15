@@ -5,7 +5,7 @@ CSS Website Layout: https://www.w3schools.com/css/css_website_layout.asp
 */
 * {
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Josefin Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
