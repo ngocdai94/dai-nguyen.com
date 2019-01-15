@@ -139,7 +139,7 @@ footer a:hover{
 /*----- END OF GENERAL INFORMATION -----*/
 
 /* ----- SOCIAL NETWORK -----*/
-.socialNetwork{
+.socialNetwork > nav{
     overflow: hidden;
     clear: both;
     margin: 0 auto;

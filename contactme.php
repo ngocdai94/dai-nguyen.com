@@ -1,6 +1,6 @@
 <?php include 'includes/config.php';?>
-<!DOCTYPE html lang="en-US">
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
     <title>Contact Dai</title>
     <!-- Enhance Websites Detail to Help Search Engines -->
