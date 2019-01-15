@@ -61,9 +61,12 @@
         &copy; 2018 - <script>document.write(new Date().getFullYear());</script> by Dai Nguyen, All Rights Reserved<br>
 
         <a href="http://validator.w3.org/check/referer"
-        target="_blank" rel="noopener">Valid HTML</a> ~ 
+        target="_blank" rel="noopener"><img style="border:0;width:88px;height:26px;margin-top:10px;"
+        src="imgs/valid_html.png" alt="Valid HTML!"/></a>  
         
-        <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank" rel="noopener">Valid CSS</a>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank" rel="noopener"><img style="border:0;width:95px;height:26px"
+            src="imgs/valid_css.svg"
+            alt="Valid CSS!"/></a>
     </footer>
 </body>
 </html>
