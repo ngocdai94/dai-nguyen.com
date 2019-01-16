@@ -346,6 +346,10 @@ li > p {
         margin-top: 15px;
     }
 
+    #moreAboutMe {
+        padding: 10px;
+    }
+    
     .infoTable > h2{
         font-size: 1.4em;
     }
@@ -393,6 +397,10 @@ li > p {
 
 /* SMALLER PHONE */
 @media all and (max-width:380px) {
+    #moreAboutMe {
+        padding: 10px;
+    }
+
     .infoTable > h2{
         font-size: 1.3em;
     }

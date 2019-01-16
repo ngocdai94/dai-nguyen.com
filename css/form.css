@@ -30,7 +30,6 @@ input:required {
 input:optional, textarea:optional {
     background-color:#f1f1f1;
     border:1px solid #ccc;
-    outline: none;
 }
 
 input[type="submit"], input[type="button"] {
@@ -59,13 +58,16 @@ input[type=text], input[type=email], textarea{
     font-size: 0.8em;
     font-weight: 600;
     border: 2px solid #ccc;
-    display: inline-block;
     width: 100%;
     padding: 15px 20px;
     margin: 8px 0;
     border-radius: 10px;
-    box-sizing: border-box;
-    outline: none;
+    outline-style: inherit;
+}
+
+/* Smooth outline with box-shadow: */
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+    box-shadow: 0 0 3pt 2pt #ccc;
 }
 
 fieldset {
@@ -96,20 +98,3 @@ label {
     margin: 0 auto;
 }
 /* End of form and reCAPTCHA styles */
-
-/* START RESPONSIVE STYLES */
-/* DESKTOP */
-@media all and (min-width:1400px) {
-    
-}
- 
-/* TABLET */
-@media all and (min-width:731px) and (max-width:1399px) {
-   
-}
- 
- 
-/* PHONE */
-@media all and (max-width:730px) {
-    
-}
