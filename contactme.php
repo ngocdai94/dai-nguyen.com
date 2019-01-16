@@ -5,41 +5,40 @@
     <title>Contact Dai</title>
     <!-- Enhance Websites Detail to Help Search Engines -->
     <meta charset="UTF-8">
-    <meta name="description" content="Dai Nguyen - Personal Website / Resume">
+    <meta name="description" content="Dai Nguyen - Contact Me">
     <meta name="keywords" content="dai, nguyen, contact, me">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Images for favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="196x196" href="/favicon-196x196.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="128x128" href="/favicon/favicon-128.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+ <!-- Images for favicon -->
     <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="196x196" href="/favicon-196x196.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="128x128" href="/favicon/favicon-128.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	
+	<!-- CSS & Font Awesome-->
+	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/nav.css">
+	<link href="/css/all.css" rel="stylesheet"> 
+	
+	<!-- Javascript -->
+	<script defer src="/js/main.js"></script>
+	<script defer src="/js/all.js"></script>
 
-    <!-- CSS & Font Awesome-->
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/nav.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
-    <link href="/css/all.css" rel="stylesheet"> 
-    
-    <!-- Javascript -->
-    <script defer src="/js/main.js"></script>
-    <script defer src="/js/all.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics & Google Optimize-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127509718-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127509718-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-127509718-1', {'optimize_id': 'GTM-52RZ2ZP'});
-    </script>
+		gtag('config', 'UA-127509718-1', {'optimize_id': 'GTM-52RZ2ZP'});
+	</script>
 </head>
 
 <body>
