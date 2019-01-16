@@ -6,7 +6,7 @@ function Class(name, room, capacity, studentNumber) {
     this.studentNumber = studentNumber;
     this.checkAvailability = function(){
         return this.capacity - this.studentNumber;
-    }
+    };
 }
 
 // Check Waitlist
