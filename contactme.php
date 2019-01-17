@@ -22,13 +22,13 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	
 	<!-- CSS & Font Awesome-->
-	<link rel="preload" href="css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="css/form.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 	<!-- No Javascript Support -->
 	<noscript>
-        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
 		<link rel="stylesheet" type="text/css" href="/css/all.min.css" > 
 	</noscript>
