@@ -24,7 +24,7 @@
 	<!-- CSS & Font Awesome-->
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
-	<link href="/css/all.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="/css/all.css"> 
 	
 	<!-- Javascript -->
 	<script defer src="/js/main.js"></script>
