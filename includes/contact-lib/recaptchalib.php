@@ -130,8 +130,8 @@ class ReCaptcha
             $recaptchaResponse->success = true;
         } else {
             $recaptchaResponse->success = false;
-            $recaptchaResponse->errorCodes = $answers [0];
-            // error-codes
+            // optional
+            //$recaptchaResponse->errorCodes = $answers['error_codes'][0];
         }
 
         return $recaptchaResponse;
