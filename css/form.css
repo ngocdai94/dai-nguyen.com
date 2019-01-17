@@ -15,6 +15,12 @@ form {
     margin-bottom: 5%;
 }
 
+.contact-feedback {
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 40%;
+}
+
 /* writes to small text above reCAPTCHA upon failure */
 .dateFeedback{
     font-style:italic;
