@@ -34,7 +34,7 @@
 	</noscript>
 
 	<!-- Javascript -->
-	<script src="js/cssrelpreload.js"></script>
+	<script async src="js/cssrelpreload.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics & Google Optimize-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127509718-1"></script>
