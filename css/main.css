@@ -212,9 +212,9 @@ footer a:hover{
 }
 
 .reference > p, 
-.reference > h2, 
 .reference > h3, 
 .reference > h4, 
+.reference > h5, 
 .reference > a {
     margin-left: 20px;
 } 
@@ -224,7 +224,7 @@ footer a:hover{
 }
 
 /* Format heading, paragraphs, etc.*/
-.experience > h1, .education > h1, .reference > h1{
+.experience > h2, .education > h2, .reference > h2{
     font-size: 2em;
     text-decoration: underline;
 }
@@ -397,20 +397,20 @@ li > p {
         width: 90%;
     }
 
-    .experience > h1, .education > h1, .reference > h1{
+    .experience > h2, .education > h2, .reference > h2{
         font-size: 1.5em;
         text-decoration: underline;
     }
 
-    li > h2, .reference > h2{
+    li > h3, .reference > h3{
         font-size: 1.2em;
     }
 
-    li > h3, .reference > h3{
+    li > h4, .reference > h4{
         font-size: 1em;
     }
 
-    li > h4, .reference > h4, .reference a{
+    li > h5, .reference > h5, .reference a{
         font-size: 0.8em;
     }
 
@@ -452,20 +452,20 @@ li > p {
         width: 90%;
     }
 
-    .experience > h1, .education > h1, .reference > h1{
+    .experience > h2, .education > h2, .reference > h2{
         font-size: 1.3em;
         text-decoration: underline;
     }
 
-    li > h2, .reference > h2{
+    li > h3, .reference > h3{
         font-size: 0.9em;
     }
 
-    li > h3, .reference > h3{
+    li > h4, .reference > h4{
         font-size: 0.7em;
     }
 
-    li > h4, .reference > h4, .reference a{
+    li > h5, .reference > h5, .reference a{
         font-size: 0.7em;
     }
 
