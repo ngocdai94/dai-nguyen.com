@@ -1,8 +1,3 @@
-/* 
-The '*' element is called CSS Selector. It will select all elements
-CSS Sector: https://www.w3schools.com/cssref/sel_all.asp
-CSS Website Layout: https://www.w3schools.com/css/css_website_layout.asp
-*/
 html {
     box-sizing: border-box;
     font-family: 'Josefin Sans', Tahoma, Geneva, Verdana, sans-serif;
@@ -355,7 +350,7 @@ li > p, .reference > p{
         background-size: 100% 100%;
         background-color: #f1f1f1;
         background-repeat: no-repeat;
-        padding: 100px;
+        padding: 70px;
     }
 
     .topnav a {
@@ -365,6 +360,10 @@ li > p, .reference > p{
 
     main {
         margin: 6% auto;
+    }
+
+    .leftColumn > h1 {
+        font-size: 2.5em;
     }
 
     .leftColumn, .profileSection{
@@ -431,6 +430,14 @@ li > p, .reference > p{
 @media all and (max-width:380px) {
     #moreAboutMe {
         padding: 10px;
+    }
+
+    .leftColumn > h1 {
+        font-size: 2em;
+    }
+
+    .leftColumn > p {
+        font-size: 1.2em;
     }
 
     .infoTable > h2{
