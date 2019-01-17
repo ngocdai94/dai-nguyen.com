@@ -22,19 +22,19 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	
 	<!-- CSS & Font Awesome-->
-	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
-    <link rel="stylesheet" type="text/css" href="/css/all.css" > 
-    
-    <!-- No Javascript Support -->
+	<link rel="preload" href="css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/form.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+	<!-- No Javascript Support -->
 	<noscript>
         <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
         <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
-		<link rel="stylesheet" type="text/css" href="/css/all.css" > 
+		<link rel="stylesheet" type="text/css" href="/css/all.min.css" > 
 	</noscript>
+
 	<!-- Javascript -->
-	<script defer src="/js/main.js"></script>
-	<script defer src="/js/all.js"></script>
+	<script src="js/cssrelpreload.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics & Google Optimize-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127509718-1"></script>
