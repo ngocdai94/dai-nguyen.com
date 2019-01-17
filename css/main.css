@@ -229,11 +229,19 @@ footer a:hover{
     text-decoration: underline;
 }
 
-li > p {
+li > h3 {
+    font-size: 1.4em;
+}
+
+li > h4 {
+    font-size: 1.2em;
+}
+
+li > h5 {
     font-size: 1.1em;
 }
 
-.reference > p {
+li > p, .reference > p{
     font-size: 1.1em;
 }
 
@@ -382,11 +390,11 @@ li > p {
         width: 20%;
         margin-left: 15px;
         margin-right: 25px;
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
     
     .tableCell_2 {
-        font-size: 1.4em;
+        font-size: 1.3em;
     }
 
     .socialNetwork a{
