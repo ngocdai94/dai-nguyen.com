@@ -24,8 +24,14 @@
 	<!-- CSS & Font Awesome-->
 	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
-	<link rel="stylesheet" href="/css/all.css"> 
-	
+    <link rel="stylesheet" type="text/css" href="/css/all.css" > 
+    
+    <!-- No Javascript Support -->
+	<noscript>
+        <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/form.css">
+		<link rel="stylesheet" type="text/css" href="/css/all.css" > 
+	</noscript>
 	<!-- Javascript -->
 	<script defer src="/js/main.js"></script>
 	<script defer src="/js/all.js"></script>
