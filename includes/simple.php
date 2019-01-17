@@ -41,9 +41,8 @@ if ($response != null && $response->success)
     ?>
     <!-- START HTML FEEDBACK -->
     <div class="contact-feedback">
-        <h2>Your Comments Have Been Received!</h2>
-        <p>Thanks for the input!</p>
-        <p>We'll respond via email within 48 hours, if you requested information.</p>
+        <h2>Thank you for your message. </h2>
+        <h3>I'll response via email within 48 hours.</h3>
     </div>    
     <!-- END HTML FEEDBACK -->        
     <?php
