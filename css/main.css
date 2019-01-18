@@ -346,7 +346,7 @@ li > p, .reference > p{
 /* BIGGER PHONE */
 @media all  and (max-width:730px) {
     .headerBackgroundImage {
-        background-image: url(/imgs/logoBackground_2.jpg);
+        background-image: url(/imgs/logoBackground_2-min.jpg);
         background-size: 100% 100%;
         background-color: #f1f1f1;
         background-repeat: no-repeat;
