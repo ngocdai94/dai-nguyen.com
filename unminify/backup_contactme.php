@@ -22,7 +22,6 @@
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 	
     <!-- CSS & Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600" rel="stylesheet">
 	<link rel="preload" href="css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="css/form.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
