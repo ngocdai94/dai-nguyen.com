@@ -50,7 +50,7 @@
     <header>
         <div class="headerBackgroundImage"></div>
         <nav class="topnav">
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
             <a href="http://dlresume.dai-nguyen.com">Download Resume</a>
             <a href="contactme.php">Contact Me</a>
         </nav>
