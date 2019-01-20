@@ -3,7 +3,7 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    font-display: auto;
+    font-display: fallback;
     src: url(/assets/Josefin_Sans/JosefinSans-Regular.ttf);
 }
 
@@ -12,7 +12,7 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
-    font-display: auto;
+    font-display: fallback;
     src: url(/assets/Josefin_Sans/JosefinSans-SemiBold.ttf);
 }
 
@@ -21,7 +21,7 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
-    font-display: auto;
+    font-display: fallback;
     src: url(/assets/Josefin_Sans/JosefinSans-Bold.ttf);
 }
 
