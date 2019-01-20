@@ -3,7 +3,7 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 400;
-    src: url(/assets/Josefin_Sans/JosefinSans-Regular.ttf) format('woff2');
+    src: url(/assets/Josefin_Sans/JosefinSans-Regular.ttf);
 }
 
 /* latin */
@@ -11,7 +11,7 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
-    src: url(/assets/Josefin_Sans/JosefinSans-SemiBold.ttf) format('woff2');
+    src: url(/assets/Josefin_Sans/JosefinSans-SemiBold.ttf);
 }
 
 /* latin */
@@ -19,7 +19,7 @@
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 700;
-    src: url(/assets/Josefin_Sans/JosefinSans-Bold.ttf) format('woff2');
+    src: url(/assets/Josefin_Sans/JosefinSans-Bold.ttf);
 }
 
 html {
