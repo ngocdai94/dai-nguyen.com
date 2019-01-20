@@ -25,13 +25,6 @@
 	<link rel="preload" href="css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="css/form.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
-	<!-- No Javascript Support -->
-	<noscript>
-        <link rel="stylesheet" type="text/css" media="screen" href="css/main.min.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="css/form.min.css">
-        <link rel="stylesheet" type="text/css" media="screen" href="css/all.min.css">
-	</noscript>
-
 	<!-- Javascript -->
 	<script async src="js/cssrelpreload.js"></script>
 
