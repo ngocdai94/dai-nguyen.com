@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-family: 'Josefin Sans', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -16,7 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: #40424a;
     margin: 0;
 	font-weight: 600;
-	font-family: 'Josefin Sans', sans-serif;
 }
 
 /* Wrapper of Body*/
@@ -224,6 +223,10 @@ footer a:hover{
     text-decoration: underline;
 }
 
+li > h3, li > h4, li > h5 {
+    font-weight: 600;
+}
+
 li > h3 {
     font-size: 1.4em;
 }
@@ -285,7 +288,7 @@ li > p, .reference > p{
         background-size: 100% 100%;
         background-color: #f1f1f1;
         background-repeat: no-repeat;
-        padding: 140px;
+        padding: 120px;
     }
 
     .leftColumn{
@@ -319,7 +322,7 @@ li > p, .reference > p{
         background-size: 100% 100%;
         background-color: #f1f1f1;
         background-repeat: no-repeat;
-        padding: 120px;
+        padding: 100px;
     }
 
     .leftColumn{
@@ -350,12 +353,7 @@ li > p, .reference > p{
         background-size: 100% 100%;
         background-color: #f1f1f1;
         background-repeat: no-repeat;
-        padding: 70px;
-    }
-
-    .topnav a {
-        float: none;
-        width: 100%;
+        padding: 60px;
     }
 
     main {
@@ -414,7 +412,7 @@ li > p, .reference > p{
     }
 
     li > h4, .reference > h4{
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     li > h5, .reference > h5, .reference a{
@@ -422,18 +420,24 @@ li > p, .reference > p{
     }
 
     li > p, .reference > p{
-        font-size: 1em;
+        font-size: 1.1em;
     }
 }
 
 /* SMALLER PHONE */
-@media all and (max-width:380px) {
+@media all and (max-width:370px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+
     #moreAboutMe {
         padding: 10px;
     }
 
     .leftColumn > h1 {
         font-size: 2em;
+        margin-top: 25px;
     }
 
     .leftColumn > p {
@@ -477,7 +481,7 @@ li > p, .reference > p{
     }
 
     li > h4, .reference > h4{
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     li > h5, .reference > h5, .reference a{
@@ -485,6 +489,6 @@ li > p, .reference > p{
     }
 
     li > p, .reference > p{
-        font-size: 0.6em;
+        font-size: 0.7em;
     }
 }
