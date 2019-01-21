@@ -17,8 +17,8 @@ form {
 
 .contact-feedback {
     text-align: center;
-    margin-top: 30%;
-    margin-bottom: 40%;
+    margin-top: 10%;
+    margin-bottom: 20%;
 }
 
 /* writes to small text above reCAPTCHA upon failure */
