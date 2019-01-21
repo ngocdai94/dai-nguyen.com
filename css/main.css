@@ -149,7 +149,7 @@ main {
 }
 
 .tableRow a{
-    color: #009fff;
+    color: #0F0FFF;
     text-decoration: none;
 }
 
@@ -255,7 +255,7 @@ li > p, .reference > p{
 }
 
 .reference a {
-    color: #009fff;
+    color: #0F0FFF;
     text-decoration: none;
     font-size: 0.8em;
 }
