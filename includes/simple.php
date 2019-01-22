@@ -56,7 +56,7 @@ if ($response != null && $response->success)
         <!-- START HTML FORM -->
         <form action="<?php echo basename($_SERVER['PHP_SELF']); ?>" method="post">
             <fieldset>
-                <legend><h1>Let's get in touch!</h1></legend> 
+                <h1>Let's get in touch!</h1> 
                 <div>
                     <label>
                         <!-- Name:<br /> -->
