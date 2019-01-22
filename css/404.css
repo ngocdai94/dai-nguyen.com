@@ -1,0 +1,45 @@
+/* latin */
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-display: fallback;
+    src: url(/assets/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+/* latin */
+@font-face {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-display: fallback;
+    src: url(/assets/Josefin_Sans/JosefinSans-SemiBold.ttf);
+}
+
+html {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color:#F5F5F5;
+}
+
+i {
+    color: #40424a;
+}
+
+i:hover {
+    color: #009fff;
+}
+
+.wrapper-404 {
+    margin-top: 30%;
+    text-align: center;
+}
