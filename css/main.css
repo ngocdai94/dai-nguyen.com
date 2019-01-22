@@ -311,10 +311,8 @@ footer a:hover{
     }
 
     .headerBackgroundImage {
-        background-image: url(/imgs/logoBackground_1.jpg);
-        background-size: 100% 100%;
-        background-color: #f1f1f1;
-        background-repeat: no-repeat;
+        background: #f1f1f1 url(/imgs/logoBackground_1.jpg) no-repeat;
+        background-size: cover;
         padding: 120px;
     }
 
@@ -345,10 +343,8 @@ footer a:hover{
 /* TABLET */
 @media all and (min-width:731px) and (max-width:1399px) {
     .headerBackgroundImage {
-        background-image: url(/imgs/logoBackground_1.jpg);
-        background-size: 100% 100%;
-        background-color: #f1f1f1;
-        background-repeat: no-repeat;
+        background: #f1f1f1 url(/imgs/logoBackground_1.jpg) no-repeat;
+        background-size: cover;
         padding: 100px;
     }
 
@@ -376,10 +372,8 @@ footer a:hover{
 /* BIGGER PHONE */
 @media all  and (max-width:730px) {
     .headerBackgroundImage {
-        background-image: url(/imgs/logoBackground_2-min.jpg);
-        background-size: 100% 100%;
-        background-color: #f1f1f1;
-        background-repeat: no-repeat;
+        background: #f1f1f1 url(/imgs/logoBackground_2-min.jpg) no-repeat;
+        background-size: cover;
         padding: 60px;
     }
 
