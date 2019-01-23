@@ -418,7 +418,8 @@ footer a:hover{
     }
 
     .socialNetwork a{
-        padding: 20px 14px;
+        padding-right: 9px;
+        line-height: 35px;
     }
 
     .reference {
@@ -449,7 +450,7 @@ footer a:hover{
 }
 
 /* SMALLER PHONE */
-@media all and (max-width:370px) {
+@media all and (max-width:413px) {
     .topnav a {
         float: none;
         width: 100%;
@@ -483,7 +484,8 @@ footer a:hover{
     }
 
     .socialNetwork a{
-        padding: 10px 25px;
+        padding-right: 35px;
+        line-height: 30px;
     }
 
     .reference {
@@ -515,7 +517,7 @@ footer a:hover{
 }
 
 /* SMALLER PHONE < 320 Pixel */
-@media all and (max-width:319px) {
+@media all and (max-width:320px) {
     .tableCell_1 {
         float: none;
         margin-left: 30px;
