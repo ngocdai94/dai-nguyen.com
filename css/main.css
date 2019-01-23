@@ -428,7 +428,6 @@ footer a:hover{
 
     .experience > h2, .education > h2, .reference > h2{
         font-size: 1.5em;
-        text-decoration: underline;
     }
 
     li > h3, .reference > h3{
@@ -470,11 +469,11 @@ footer a:hover{
     }
 
     .infoTable > h2{
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
 
     .tableCell_1, .tableCell_2{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
 
     .tableCell_1 {
@@ -499,35 +498,38 @@ footer a:hover{
     .experience > h2, 
     .education > h2, 
     .reference > h2{
-        font-size: 1.6em;
-        text-decoration: underline;
+        font-size: 1.3em;
+        padding: 0;
     }
 
     li > h3, .reference > h3{
-        font-size: 1.4em;
+        font-size: 1.25em;
     }
 
     li > h4, .reference > h4{
         font-size: 1.2em;
     }
 
-    li > h5, 
-    .reference > h5, 
-    .reference a, 
-    li > p, 
-    .reference > p{
+    li > h5, .reference > h5, .reference a, li > p, .reference > p{
         font-size: 1em;
     }
 }
 
-/* SMALLER PHONE < 320 Pixel */
-@media all and (max-width:319px) {
-    .tableCell_1 {
-        float: none;
-        margin-left: 30px;
+/* SMALLER PHONE < 385 Pixel */
+@media all and (max-width:385px) {
+    .tableCell_1, .tableCell_2{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
     }
 
     .socialNetwork a{
         padding: 20px 25px;
+    }
+
+    .education, .experience, .reference {
+        padding: 0;
+        width: 95%;
+        margin-top: 10px;
     }
 }
