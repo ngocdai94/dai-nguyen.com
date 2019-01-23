@@ -222,7 +222,7 @@ main {
 .reference > h3, 
 .reference > h4, 
 .reference > h5, 
-.reference > a {
+.reference > div {
     margin-left: 20px;
 } 
 
@@ -469,14 +469,18 @@ footer a:hover{
         font-size: 1.2em;
     }
 
-    .infoTable > h2, .tableCell_1, .tableCell_2{
-        font-size: 1.3em;
+    .infoTable > h2{
+        font-size: 1.5em;
+    }
+
+    .tableCell_1, .tableCell_2{
+        font-size: 1.4em;
     }
 
     .tableCell_1 {
         width: 10%;
         margin-left: 5px;
-        margin-right: 48px;
+        margin-right: 55px;
     }
 
     .socialNetwork{
@@ -495,16 +499,16 @@ footer a:hover{
     .experience > h2, 
     .education > h2, 
     .reference > h2{
-        font-size: 1.3em;
+        font-size: 1.6em;
         text-decoration: underline;
     }
 
     li > h3, .reference > h3{
-        font-size: 0.9em;
+        font-size: 1.4em;
     }
 
     li > h4, .reference > h4{
-        font-size: 0.8em;
+        font-size: 1.2em;
     }
 
     li > h5, 
@@ -512,7 +516,7 @@ footer a:hover{
     .reference a, 
     li > p, 
     .reference > p{
-        font-size: 0.7em;
+        font-size: 1em;
     }
 }
 
