@@ -138,10 +138,12 @@ main {
 .infoTable {
     clear: both;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 .infoTable > h2{
     font-size: 1.7em;
+    margin-bottom: 15px;
 }
 
 .tableRow {
@@ -416,7 +418,7 @@ footer a:hover{
     }
 
     .socialNetwork a{
-        padding: 15px 10px;
+        padding: 20px 14px;
     }
 
     .reference {
@@ -466,7 +468,7 @@ footer a:hover{
         font-size: 1.2em;
     }
 
-    .infoTable > h2{
+    .infoTable > h2, .tableCell_1, .tableCell_2{
         font-size: 1.3em;
     }
 
@@ -474,11 +476,6 @@ footer a:hover{
         width: 10%;
         margin-left: 5px;
         margin-right: 48px;
-        font-size: 1.3em;
-    }
-    
-    .tableCell_2 {
-        font-size: 1.3em;
     }
 
     .socialNetwork{
@@ -486,7 +483,7 @@ footer a:hover{
     }
 
     .socialNetwork a{
-        padding: 10px 10px;
+        padding: 10px 25px;
     }
 
     .reference {
@@ -522,5 +519,9 @@ footer a:hover{
     .tableCell_1 {
         float: none;
         margin-left: 30px;
+    }
+
+    .socialNetwork a{
+        padding: 20px 25px;
     }
 }
