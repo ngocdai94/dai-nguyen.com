@@ -1,0 +1,5 @@
+# Turn on rewrite
+RewriteEngine on
+
+# Error page
+ErrorDocument 404 /error.php
