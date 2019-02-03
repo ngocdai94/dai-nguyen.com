@@ -194,41 +194,25 @@ main {
 /* ----- END OF SOCIAL NETWORK ----- */
 
 /* ----- RESUME SECTION -----*/
-/* EXPERIENCE */
-.experience {
+/* EXPERIENCE, EDUCATION, REFERENCE */
+.experience, .education, .reference {
     clear: both;
     width: 80%;
     margin: 0 auto;
     padding: 1.2em;
 }
 
-/* EDUCATION */
-.education {
-    clear: both;
-    width: 80%;
-    margin: -16px auto;
-    padding: 1.2em;
+.ref-wrapper {
+    margin-left: 10px; 
 }
 
-/* REFERENCE */
-.reference {
-    clear: both;
-    width: 80%;
-    margin: 0 auto;
-    padding: 1.2em;
+.ref-wrapper i {
+    margin-top: 10px;
 }
 
-.reference > p, 
-.reference > h3, 
-.reference > h4, 
-.reference > h5, 
-.reference > div {
+.ref1, .ref2 {
     margin-left: 20px;
-} 
-
-.reference > p {
-    margin-top: -5px;
-}
+    margin-top: -15px;}
 
 /* Format heading, paragraphs, etc.*/
 .experience > h2, .education > h2, .reference > h2{

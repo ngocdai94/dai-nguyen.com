@@ -22,14 +22,19 @@
 	<link rel="icon" type="image/png" sizes="128x128" href="/favicon-128.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-	
+
+	<!-- Load CSS & FontAwesome When JavaScript is Disabled -->
+	<noscript>
+		<link rel="stylesheet" type="text/css"href="/css/main.min.css">
+		<link rel="stylesheet" type="text/css"href="/css/fasolidbrand.css">
+	</noscript>
+
     <!-- CSS & FontAwesome-->
-    <link rel="preload" href="/css/main.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <link rel="preload" href="/css/fasolidbrand.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
 	<!-- Javascript -->
 	<script async src="/js/cssrelpreload.js"></script>
-    <!-- <script defer src="/js/main.js"></script> -->
+	<script defer src="/js/all.js"></script>
 
 	<!-- Global site tag (gtag.js) - Google Analytics & Google Optimize-->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127509718-1"></script>
@@ -145,19 +150,36 @@
 
 			<section class="reference">
 				<h2>References</h2>
-				<i class="fas fa-quote-left fa-1x"></i>
-				<p>
-					I had the pleasure of studying with Dai when we were in school together. An incredibly gifted student, Dai was always meticulously organized. His notes were immaculate, and I'm not exaggerating when I say that his breadboards looked like works of art. Dai is dedicated, the type of person who will spend an extra hour to take a project from 98% perfect to 100%. He is extremely smart, focused, and driven. In group projects, he was the quiet backbone of the team. You can tell by talking with him that he has a genuine passion for software and electronics. He would make a great addition to any software or hardware team. Finally, I would like to add that Dai did not request that I write this recommendation. I just saw his profile and wanted to write one because he is that good.
-				</p>
-				<h3>Mirka Mandich</h3>
-				<h4>Electrical Engineer at Seattle University</h4>
-				<h5>Seattle University Class of 2019</h5>
-				<div><a href="https://www.linkedin.com/in/dai-nguyen/" target="_blank" rel="noopener">Original recommendation on LinkedIn</a></div></div>
-			</section>
+				<div class="ref-wrapper">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+								<div><i class="fas fa-quote-left fa-1x"></i></div>
+								<div class="ref1">
+									<p>
+										I had the pleasure of teaching and mentoring Dai during his time at Seattle University. His ability to find creative and resourceful solutions to problems, while being mindful of project constraints, sets him apart from his peers. Above all, I was impressed with Dai's desire to learn and perfect as many technical skills as he could, often going above and beyond what is required for his courses and projects. He takes pride in mentoring and helping his peers. Dai will be a valuable asset to any team. 
+									</p>
+									<h3>Shiny Abraham, Ph.D</h3>
+									<h4>Associate Professor at Seattle University</h4>
+									<div><a href="https://www.linkedin.com/in/dai-nguyen/" target="_blank" rel="noopener">Original recommendation on LinkedIn</a></div>
+								</div>
+						</div>
 
-			<div class="contactMe">
-				<a href="contactme.php">CONTACT ME</a>
-			</div>
+						<div class="item">
+							<div><i class="fas fa-quote-left fa-1x"></i></div>
+								<div class="ref2">
+									<p>
+										I had the pleasure of studying with Dai when we were in school together. An incredibly gifted student, Dai was always meticulously organized. His notes were immaculate, and I'm not exaggerating when I say that his breadboards looked like works of art. Dai is dedicated, the type of person who will spend an extra hour to take a project from 98% perfect to 100%. He is extremely smart, focused, and driven. In group projects, he was the quiet backbone of the team. You can tell by talking with him that he has a genuine passion for software and electronics. He would make a great addition to any software or hardware team. Finally, I would like to add that Dai did not request that I write this recommendation. I just saw his profile and wanted to write one because he is that good.
+									</p>
+									<h3>Mirka Mandich</h3>
+									<h4>Electrical Engineering Student</h4>
+									<h5>Seattle University Class of 2019</h5>
+									<div><a href="https://www.linkedin.com/in/dai-nguyen/" target="_blank" rel="noopener">Original recommendation on LinkedIn</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>
@@ -170,23 +192,5 @@
         	<a href="https://jigsaw.w3.org/css-validator/validator?uri=dai-nguyen.com&profile=css3svg" target="_blank" rel="noopener"><img style="border:0;width:95px;height:26px" src="imgs/valid_css.svg" alt="Valid CSS!"/></a>
 		</footer>
 	</div>
-
-	<script>
-		/* Display button when javascript is enable and html page is loading */
-		window.onload=function() {
-			var el_moreAboutMeButton = document.getElementById("moreAboutMeButton");
-			el_moreAboutMeButton.style.display = "block";
-		}
-
-		/* Toggle more about me infomation display */
-		function moreAboutMe() {
-			var el_moreAboutMe = document.getElementById("moreAboutMe");
-			if (el_moreAboutMe.style.display === "none") {
-				el_moreAboutMe.style.display = "block";
-			} else {
-				el_moreAboutMe.style.display = "none";
-			}
-		}
-	</script>
 </body>
 </html>
