@@ -540,12 +540,3 @@ footer a:hover {
 	font-display: fallback;
 	src: url(/assets/Josefin_Sans/JosefinSans-SemiBold.ttf);
 }
-
-/* latin */
-@font-face {
-	font-family: 'Josefin Sans';
-	font-style: normal;
-	font-weight: 700;
-	font-display: fallback;
-	src: url(/assets/Josefin_Sans/JosefinSans-Bold.ttf);
-}
