@@ -1,8 +1,7 @@
 /**
  * Dai Nguyen
- * main.min.css
+ * main.css
  */
-
  html {
 	box-sizing: border-box;
 	font-family: 'Josefin Sans', sans-serif;
@@ -13,30 +12,12 @@
 	box-sizing: inherit;
 }
 
-/* NAVIGATION LINKS */
-.topnav {
-	overflow: hidden;
-	background-color: #333;
-}
-.topnav a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-}
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
-/*----- END NAVIGATION LINKS -----*/
-
 body {
 	margin: 0;
 	height: 100%;
 	background-color: #F5F5F5;
 }
+
 h1,
 h2,
 h3,
@@ -46,6 +27,11 @@ h6 {
 	color: #40424a;
 	margin: 0;
 	font-weight: 600;
+}
+
+a {
+	text-decoration: none;
+	color: #0F0FFF;
 }
 
 /* Wrapper of Body*/
@@ -58,6 +44,45 @@ main {
 	width: 98%;
 	margin: 1% auto;
 }
+
+/* NAVIGATION LINKS */
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+	float: left;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+	display: inline-block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: 0.3s;
+	font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+	background-color: #ddd; 
+	color: black;
+}
+
+/* Hide the list item that contains the link that 
+should open and close the topnav on small screens */
+ul.topnav li.icon {
+	display: none;
+}
+/*----- END NAVIGATION LINKS -----*/
 
 /* ----- ABOUT ME SECTION ----- */
 /* Left Column */
@@ -101,7 +126,6 @@ main {
 
 #moreAboutMeButton:hover {
 	background-color: #009fff;
-	text-decoration: none;
 }
 
 #moreAboutMeButton:active {
@@ -132,7 +156,6 @@ main {
 
 .tableRow a {
 	color: #0F0FFF;
-	text-decoration: none;
 }
 
 .tableRow a:hover {
@@ -153,7 +176,6 @@ main {
 /*----- END OF GENERAL INFORMATION -----*/
 
 /* ----- SOCIAL NETWORK -----*/
-
 .socialNetwork > nav {
 	overflow: hidden;
 	clear: both;
@@ -165,7 +187,6 @@ main {
 .socialNetwork a {
 	text-align: center;
 	padding: 16px 20px;
-	text-decoration: none;
 	color: #484848;
 }
 
@@ -175,10 +196,11 @@ main {
 /* ----- END OF SOCIAL NETWORK ----- */
 
 /* ----- RESUME SECTION -----*/
-/* EXPERIENCE, EDUCATION, REFERENCE */
+/* EXPERIENCE, EDUCATION, REFERENCE, PROJECT*/
 .experience,
 .education,
-.reference {
+.reference,
+.project{
 	clear: both;
 	width: 80%;
 	margin: 0 auto;
@@ -201,7 +223,8 @@ main {
 /* Format heading, paragraphs, etc.*/
 .experience > h2,
 .education > h2,
-.reference > h2 {
+.reference > h2,
+.project > h2 {
 	font-size: 2em;
 	text-decoration: underline;
 }
@@ -211,6 +234,7 @@ li > h4,
 li > h5 {
 	font-weight: 600;
 }
+
 li > h3 {
 	font-size: 1.4em;
 }
@@ -225,62 +249,175 @@ li > h5 {
 
 li > p,
 .reference p {
-    font-size: 1.25em;
-    letter-spacing: 0.5px;
-    line-height: 20px;
+	font-size: 1.25em;
+	letter-spacing: 0.5px;
+	line-height: 20px;
 }
 
 .reference a {
 	color: #0F0FFF;
-	text-decoration: none;
 	font-size: 0.8em;
 }
 
 .reference a:hover {
 	color: cornflowerblue;
 }
+
+.project p {
+	line-height: 22px;
+}
 /* ----- END OF RESUME SECTION ----- */
 
-/* ----- CONTACT ME ----- */
+/* ----- GRID LAYOUT FOR PROJECTS SECTION ----- */
+.grid-container {
+	display: grid;
+	/* grid-template-columns: 32% 32% 32%;  */
+	/* grid-template-rows: 300px 175px; */
+	/* grid-column-gap: 10px; */
+	/* grid-row-gap: 20px; */
+	grid-gap: 10px; /*for row and column*/
+}
 
-.contactMe {
+.projectSection {
+	grid-template-columns: 45% 45%;
+	margin: 1% auto 0 8%;
+}
+
+.grid-item {
+	border: 1px solid #222;
 	text-align: center;
-	padding: 1em;
+	padding: 10px;
 }
 
-.contactMe a {
-	color: #40424a;
-	text-decoration: none;
+.grid-item img {
+	display: block;
+	margin: 0 auto 10px auto;
+	width: 100%;
+	max-width: 400px;
+	height: 300px;
+}
+
+.skill {
+	color:#081b56bd;
+}
+
+.navButton {
+	display: block;
+	text-align: center;
+	margin: 15px 0 15px 0;
+}
+
+.navButton a {
+	padding: 5px;
+	overflow: hidden;
+	transition: 0.3s;
+	border: 1px solid black;
+	color: white;
+	background-color: #484848;
+}
+
+.navButton a:hover {
+	background-color: #ddd; 
+	color: black;
+}
+/* --------- END ---------- */
+
+/* ----- PROJECT PAGE ------ */
+.projectPage {
+	margin-top: 2%;
+}
+.projectPage > h1 {
+	font-size: 2em;
+}
+
+.projectPage > p {
 	font-size: 1.2em;
-	border: 2px solid;
-	padding: 0.3em 0.8em;
+	width: 75%;
+	margin: 10px auto auto auto;
 }
 
-.contactMe a:hover {
-	background-color: #ddd;
-	color: #009fff;
-	text-decoration: none;
+.projectPage > h1,
+.projectPage > p {
+	text-align: center;
 }
-/* ----- END OF CONTACT ME ----- */
 
-/* FOOTER */
+.projectDetail p{
+	font-size: 1.2em;
+}
 
+.projectDetail li {
+	line-height: 25px;
+	font-size: 1.2rem;
+}
+
+.projectDetail figure {
+	text-align: center;
+	margin: 10px 0 25px 0;
+}
+
+.projectDetail figcaption {
+	font-weight: 900;
+	margin-top: 8px;
+	color: #222;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projectDetail img {
+	width: 100%;
+	max-width: 700px;
+	height: auto;
+}
+/* --------- END ---------- */ 
+
+/* --------- FOOTER ---------*/
 footer {
 	text-align: center;
 	margin-bottom: 10px;
 }
-
-footer a {
-	color: cornflowerblue;
-	text-decoration: none;
-}
-
-footer a:hover {
-	color: #009fff;
-}
 /*----- END OF FOOTER -----*/
 
 /* START RESPONSIVE STYLES */
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width:680px) {
+	ul.topnav li:not(:first-child) {display: none;}
+	ul.topnav li.icon {
+			float: right;
+			display: inline-block;
+	}
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width:680px) {
+	ul.topnav.responsive {position: relative;}
+	ul.topnav.responsive li.icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+	}
+
+	ul.topnav.responsive li {
+			float: none;
+			display: inline;
+	}
+
+	ul.topnav.responsive li a {
+			display: block;
+			text-align: left;
+	}
+}
+
 /* DESKTOP */
 @media all and (min-width: 1400px) {
 	.content {
@@ -356,42 +493,42 @@ footer a:hover {
     
 	main {
 		margin: 6% auto;
-    }
+	}
     
 	.leftColumn > h1 {
 		font-size: 2.5em;
-    }
+	}
     
 	.leftColumn,
 	.profileSection {
 		float: none;
 		width: 100%;
 		margin-top: -20px;
-    }
+	}
     
 	.profilePhoto {
 		width: 100%;
 		margin-top: 15px;
-    }
+	}
     
 	#moreAboutMe {
 		padding: 10px;
-    }
+	}
     
 	.infoTable > h2 {
 		font-size: 1.4em;
-    }
+	}
     
 	.tableCell_1 {
 		width: 20%;
 		margin-left: 15px;
 		margin-right: 25px;
 		font-size: 1.3em;
-    }
+	}
     
 	.tableCell_2 {
 		font-size: 1.3em;
-    }
+	}
     
 	.socialNetwork a {
 		padding-right: 9px;
@@ -399,40 +536,41 @@ footer a:hover {
 	}
 	.reference {
 		width: 90%;
-    }
+	}	
     
 	.experience > h2,
 	.education > h2,
-	.reference > h2 {
+	.reference > h2
+	.project > h2 {
 		font-size: 1.5em;
-    }
+	}
     
 	li > h3,
 	.reference h3 {
 		font-size: 1.2em;
-    }
+	}
     
 	li > h4,
 	.reference h4,
 	li > p,
 	.reference p {
 		font-size: 1.1em;
-    }
+	}
     
 	li > h5,
 	.reference h5,
 	.reference a {
 		font-size: 0.8em;
 	}
+
+	.projectSection {
+		grid-template-columns: 100%;
+		margin: 10px auto;
+	}
 }
 
 /* SMALLER PHONE */
 @media all and (max-width: 410px) {
-	.topnav a {
-		float: none;
-		width: 100%;
-    }
-    
 	#moreAboutMe {
 		padding: 10px;
     }
@@ -476,7 +614,8 @@ footer a:hover {
     
 	.experience > h2,
 	.education > h2,
-	.reference > h2 {
+	.reference > h2,
+	.project > h2 {
 		font-size: 1.3em;
 		padding: 0;
     }
@@ -515,7 +654,8 @@ footer a:hover {
     
 	.education,
 	.experience,
-	.reference {
+	.reference,
+	.project {
 		padding: 0;
 		width: 95%;
 		margin-top: 10px;
