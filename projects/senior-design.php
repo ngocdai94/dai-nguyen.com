@@ -10,22 +10,22 @@
 
         <div class="project projectDetail">
             <figure>
-                <img src="imgs/senior-design-1.jpg" alt="project poster">
+                <img src="imgs/senior-design-1.webp" alt="project poster">
                 <figcaption>1. Project Poster</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/senior-design-2.jpg" alt="raspberry pi as a data hub">
+                <img src="imgs/senior-design-2.webp" alt="raspberry pi as a data hub">
                 <figcaption>2. Raspberry as a Datahub to Collect XBee Sensors' Data</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/senior-design-3.jpg" alt="temp and door sensor">
+                <img src="imgs/senior-design-3.webp" alt="temp and door sensor">
                 <figcaption>3. Temperature and Door Sensors</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/senior-design-4.png" alt="android tablet">
+                <img src="imgs/senior-design-4.webp" alt="android tablet">
                 <figcaption>4. Android Tablet Shows XBees' Current Data</figcaption>
             </figure>
 

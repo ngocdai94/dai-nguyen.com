@@ -8,17 +8,17 @@
         
         <div class="project projectDetail">
             <figure>
-                <img src="imgs/home-net-3.png" alt="network overview">
+                <img src="imgs/home-net-3.webp" alt="network overview">
                 <figcaption>1. Network Deloyment Overview</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/home-net-1.jpg" alt="cable managment">
+                <img src="imgs/home-net-1.webp" alt="cable managment">
                 <figcaption>2. Cable Managment</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/home-net-2.jpg" alt="data center">
+                <img src="imgs/home-net-2.webp" alt="data center">
                 <figcaption>3. Data Center</figcaption>
             </figure>
             <br>

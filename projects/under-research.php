@@ -8,17 +8,17 @@
         
         <div class="project projectDetail">
             <figure>
-                <img src="imgs/under-research-1.png" alt="undergraduate research">
+                <img src="imgs/under-research-1.webp" alt="undergraduate research">
                 <figcaption>1. Research Poster</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/under-research-3.png" alt="thingspeak iot">
+                <img src="imgs/under-research-3.webp" alt="thingspeak iot">
                 <figcaption>2. ThingSpeak IoT Server</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/under-research-2.jpg" alt="project for student">
+                <img src="imgs/under-research-2.webp" alt="project for student">
                 <figcaption>3. Coin Counter Image Processing</figcaption>
             </figure>
             <br>
