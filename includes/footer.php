@@ -4,7 +4,7 @@
 		</div>
 
 		<footer>
-			&copy; 2018 - <script>document.write(new Date().getFullYear());</script> by Dai Nguyen, All Rights Reserved<br>
+			&copy; 2018 - <?php echo date("Y");?> by Dai Nguyen, All Rights Reserved<br>
 		</footer>
 	</div>
 </body>

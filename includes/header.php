@@ -27,6 +27,7 @@
 
 	<!-- CSS & FontAwesome-->
 	<link rel="preload" href="/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
 	<?=$formCSS?>
 
 	<!-- Javascript -->

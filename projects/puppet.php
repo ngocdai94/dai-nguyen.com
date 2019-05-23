@@ -8,12 +8,18 @@
         
         <div class="project projectDetail">
             <figure>
-                <img src="imgs/puppet-1.webp" alt="puppet prototype">
+                <picture>
+                    <source type="image/webp" srcset="puppet-1.webp">
+                    <img src="imgs/puppet-1.jpg" alt="puppet prototype">
+                </picture>
                 <figcaption>1. Puppet Prototype Setup</figcaption>
             </figure>
 
             <figure>
-                <img src="imgs/puppet-2.webp" alt="puppet...">
+                <picture>
+                    <source type="image/webp" srcset="puppet-2.webp">
+                    <img src="imgs/puppet-2.jpg" alt="puppet PCB">
+                </picture>
                 <figcaption>2. Puppet Prototype Testing on PCB</figcaption>
             </figure>
 

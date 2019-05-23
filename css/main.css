@@ -279,8 +279,8 @@ li > p,
 }
 
 .projectSection {
-	grid-template-columns: 45% 45%;
-	margin: 1% auto 0 8%;
+	grid-template-columns: 50% 50%;
+	margin: 2% auto 0 2%;
 }
 
 .grid-item {
@@ -426,10 +426,19 @@ footer {
     }
     
 	.headerBackgroundImage {
-		background: #f1f1f1 url(/imgs/logoBackground_1.jpg) no-repeat;
+		background-color: #f1f1f1;
+		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 120px;
-    }
+	}
+		
+	.no-webp .headerBackgroundImage {
+		background-image: url("/imgs/logoBackground_1.jpg");
+	}
+	
+	.webp .headerBackgroundImage{
+		background-image: url("/imgs/logoBackground_1.webp");
+	}
     
 	.leftColumn {
 		float: left;
@@ -458,11 +467,20 @@ footer {
 /* TABLET */
 @media all and (min-width: 731px) and (max-width: 1399px) {
 	.headerBackgroundImage {
-		background: #f1f1f1 url(/imgs/logoBackground_1.jpg) no-repeat;
+		background-color: #f1f1f1;
+		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 100px;
-    }
-    
+	}
+		
+	.no-webp .headerBackgroundImage {
+		background-image: url("/imgs/logoBackground_1.jpg");
+	}
+	
+	.webp .headerBackgroundImage{
+		background-image: url("/imgs/logoBackground_1.webp");
+	}
+	
 	.leftColumn {
 		float: left;
 		width: 50%;
@@ -481,16 +499,38 @@ footer {
 	.tableCell_1 {
 		width: 15%;
 	}
+
+	.projectSection {
+		grid-template-columns: 80%;
+		margin-left: 17%;
+	}
+}
+
+/* RESPONSIVE FOR GRID-ITEM PROJECT SECTION*/
+@media all and (max-width: 1100px) {
+	.projectSection {
+		grid-template-columns: 95%;
+    margin-left: 5%;
+	}
 }
 
 /* BIGGER PHONE */
 @media all and (max-width: 730px) {
 	.headerBackgroundImage {
-		background: #f1f1f1 url(/imgs/logoBackground_2.jpg) no-repeat;
+		background-color: #f1f1f1;
+		background-repeat: no-repeat;
 		background-size: cover;
 		padding: 60px;
-    }
-    
+	}
+
+	.no-webp .headerBackgroundImage {
+		background-image: url("/imgs/logoBackground_2.jpg");
+	}
+	
+	.webp .headerBackgroundImage{
+		background-image: url("/imgs/logoBackground_2.webp");
+	}
+
 	main {
 		margin: 6% auto;
 	}
@@ -540,7 +580,7 @@ footer {
     
 	.experience > h2,
 	.education > h2,
-	.reference > h2
+	.reference > h2,
 	.project > h2 {
 		font-size: 1.5em;
 	}
@@ -563,9 +603,12 @@ footer {
 		font-size: 0.8em;
 	}
 
+	.experience, .education, .reference, .project {
+		width: 96%;
+	}
 	.projectSection {
 		grid-template-columns: 100%;
-		margin: 10px auto;
+		margin-left: 0;
 	}
 }
 
@@ -618,7 +661,7 @@ footer {
 	.project > h2 {
 		font-size: 1.3em;
 		padding: 0;
-    }
+	}
     
 	li > h3,
 	.reference h3 {
@@ -637,6 +680,7 @@ footer {
 	.reference p {
 		font-size: 1em;
 	}
+
 }
 
 /* SMALLER PHONE < 385 Pixel */
@@ -657,7 +701,6 @@ footer {
 	.reference,
 	.project {
 		padding: 0;
-		width: 95%;
 		margin-top: 10px;
 	}
 }
