@@ -6,19 +6,36 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>https://www.dai-nguyen.com/</loc>
-  <lastmod>2019-01-17T23:34:54+00:00</lastmod>
+  <lastmod>2019-05-23T20:23:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.dai-nguyen.com/index.html</loc>
-  <lastmod>2019-01-17T23:34:54+00:00</lastmod>
+  <loc>https://www.dai-nguyen.com/contactme.php</loc>
+  <lastmod>2019-05-23T20:23:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.dai-nguyen.com/contactme.php</loc>
-  <lastmod>2019-01-17T23:37:14+00:00</lastmod>
+  <loc>https://www.dai-nguyen.com/projects/under-research.php</loc>
+  <lastmod>2019-05-23T20:23:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://www.dai-nguyen.com/projects/senior-design.php</loc>
+  <lastmod>2019-05-23T20:23:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.dai-nguyen.com/projects/home-net.php</loc>
+  <lastmod>2019-05-23T20:23:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.dai-nguyen.com/projects/puppet.php</loc>
+  <lastmod>2019-05-23T20:23:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
 </urlset>
