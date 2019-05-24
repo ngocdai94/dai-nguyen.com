@@ -20,7 +20,7 @@
     $title = "";
     $formCSS = "";
     $meta_keyword = "resume, dai, đại, nguyen, nguyễn, ngoc, ngọc, seattle, university, vietnam, việt, nam, onepage, creative, html, software, network, electrical, engineer, forhire, hire, engineering, professional";
-    $meta_description = "Dai Ngoc Nguyen - Personal Website / Resume. I am an Electrical & Computer Engineer with a passion in Computer Networking.";
+    $meta_description = "Dai Ngoc Nguyen - Personal Website / Resume. I am an Electrical & Computer Engineer with a passion in Computer Networking. I graduated in 2018 with a B.S. in Electrical and Computer Engineering from Seattle University. My previous work experience has been in software development, computer networking, and web development.";
 
     switch(FILE_NAME){
         case 'index.php':

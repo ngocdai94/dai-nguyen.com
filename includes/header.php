@@ -31,7 +31,6 @@
 	<?=$formCSS?>
 
 	<!-- Javascript -->
-	<script async src="/js/cssrelpreload.js"></script>
 	<script defer src="/js/all.js"></script>
 	
 	<!-- Global site tag (gtag.js) - Google Analytics & Google Optimize-->
