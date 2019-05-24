@@ -45,9 +45,8 @@
 
 	<!-- Load CSS & FontAwesome When JavaScript is Disabled -->
 	<noscript>
-        <link rel="stylesheet" type="text/css" href="/css/main.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/all.css">
         <link rel="stylesheet" type="text/css" href="/css/form.min.css">
-		<link rel="stylesheet" type="text/css" href="/css/fasolidbrand.css">
 	</noscript>
 </head>
 

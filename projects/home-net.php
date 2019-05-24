@@ -9,24 +9,33 @@
         <div class="project projectDetail">
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="home-net-3.webp">
-                    <img src="imgs/home-net-3.jpg" alt="network overview">
+                    <source type="image/webp" 
+                        data-srcset="imgs/home-net-3.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/home-net-3.jpg" alt="network overview">
                 </picture>
                 <figcaption>1. Network Deloyment Overview</figcaption>
             </figure>
 
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="home-net-1.webp">
-                    <img src="imgs/home-net-1.jpg" alt="cable managment">
+                    <source type="image/webp" 
+                        data-srcset="imgs/home-net-1.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/home-net-1.jpg" alt="cable managment">
                 </picture>
                 <figcaption>2. Cable Managment</figcaption>
             </figure>
 
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="home-net-2.webp">
-                    <img src="imgs/home-net-2.jpg" alt="data center">
+                    <source type="image/webp" 
+                        data-srcset="imgs/home-net-2.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/home-net-2.jpg" alt="data center">
                 </picture>
                 <figcaption>3. Data Center</figcaption>
             </figure>

@@ -11,32 +11,44 @@
         <div class="project projectDetail">
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="imgs/senior-design-1.webp">
-                    <img src="imgs/senior-design-1.jpg" alt="project poster">
+                    <source type="image/webp" 
+                        data-srcset="imgs/senior-design-1.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/senior-design-1.jpg" alt="project poster">
                 </picture>
                 <figcaption>1. Project Poster</figcaption>
             </figure>
 
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="imgs/senior-design-2.webp">
-                    <img src="imgs/senior-design-2.jpg" alt="raspberry pi as a data hub">
+                    <source type="image/webp" 
+                        data-srcset="imgs/senior-design-2.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/senior-design-2.jpg" alt="raspberry pi as a data hub">
                 </picture>
                 <figcaption>2. Raspberry as a Datahub to Collect XBee Sensors' Data</figcaption>
             </figure>
 
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="imgs/senior-design-3.webp">
-                    <img src="imgs/senior-design-3.jpg" alt="temp and door sensor">
+                    <source type="image/webp" 
+                        data-srcset="imgs/senior-design-3.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/senior-design-3.jpg" alt="temp and door sensor">
                 </picture>
                 <figcaption>3. Temperature and Door Sensors</figcaption>
             </figure>
 
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="imgs/senior-design-4.webp">
-                    <img src="imgs/senior-design-4.jpg" alt="android tablet">
+                    <source type="image/webp" 
+                        data-srcset="imgs/senior-design-4.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/senior-design-4.jpg" alt="android tablet">
                 </picture>
                 <figcaption>4. Android Tablet Shows XBees' Current Data</figcaption>
             </figure>

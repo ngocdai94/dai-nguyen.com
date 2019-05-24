@@ -1,3 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-color:#F5F5F5;
+}
+
+svg {
+    color: #40424a;
+}
+
+svg:hover {
+    color: #009fff;
+}
+
+.wrapper-404 {
+    margin-top: 20%;
+    text-align: center;
+}
+
 /* latin */
 @font-face {
     font-family: 'Josefin Sans';
@@ -14,32 +42,4 @@
     font-weight: 600;
     font-display: fallback;
     src: url(/assets/Josefin_Sans/JosefinSans-SemiBold.ttf);
-}
-
-html {
-    box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
-
-body {
-    margin: 0;
-    height: 100%;
-    background-color:#F5F5F5;
-}
-
-i {
-    color: #40424a;
-}
-
-i:hover {
-    color: #009fff;
-}
-
-.wrapper-404 {
-    margin-top: 30%;
-    text-align: center;
 }

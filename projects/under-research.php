@@ -9,24 +9,33 @@
         <div class="project projectDetail">
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="imgs/under-research-1.webp">
-                    <img src="imgs/under-research-1.jpg" alt="undergraduate research">
+                    <source type="image/webp" 
+                        data-srcset="imgs/under-research-1.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/under-research-1.jpg" alt="undergraduate research">
                 </picture>
                 <figcaption>1. Research Poster</figcaption>
             </figure>
 
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="imgs/under-research-3.webp">
-                    <img src="imgs/under-research-3.jpg" alt="thingspeak iot">
+                    <source type="image/webp" 
+                        data-srcset="imgs/under-research-3.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/under-research-3.jpg" alt="thingspeak iot">
                 </picture>
                 <figcaption>2. ThingSpeak IoT Server</figcaption>
             </figure>
 
             <figure>
                 <picture>
-                    <source type="image/webp" srcset="imgs/under-research-2.webp">
-                    <img src="imgs/under-research-2.jpg" alt="project for student">
+                    <source type="image/webp" 
+                        data-srcset="imgs/under-research-2.webp">
+                    <img class="lazy"
+                        data-src="imgs/lazy.jpg"
+                        data-srcset="imgs/under-research-2.jpg" alt="project for student">
                 </picture>
                 <figcaption>3. Coin Counter Image Processing</figcaption>
             </figure>

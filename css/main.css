@@ -34,6 +34,10 @@ a {
 	color: #0F0FFF;
 }
 
+a:hover {
+	color: cornflowerblue;
+}
+
 /* Wrapper of Body*/
 .content {
 	overflow: auto;
@@ -156,10 +160,6 @@ ul.topnav li.icon {
 
 .tableRow a {
 	color: #0F0FFF;
-}
-
-.tableRow a:hover {
-	color: cornflowerblue;
 }
 
 .tableCell_1 {
