@@ -1,6 +1,6 @@
 		
 		<div class="navButton">
-			<a href="#myTopnav">Back To Top <i class="fas fa-long-arrow-alt-up"></i></a>		
+			<a href="#top">Back To Top <i class="fas fa-long-arrow-alt-up"></i></a>		
 		</div>
 
 		<footer>

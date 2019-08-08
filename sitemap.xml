@@ -13,6 +13,11 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://dlresume.dai-nguyen.com/</loc>
+  <lastmod>2019-05-23T20:23:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.dai-nguyen.com/contactme.php</loc>
   <lastmod>2019-05-23T20:23:06+00:00</lastmod>
   <priority>0.80</priority>

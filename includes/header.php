@@ -53,7 +53,7 @@
 <body>
 	<div class="content">
 		<header>
-			<div class="headerBackgroundImage"></div>
+			<div class="headerBackgroundImage" id="top"></div>
 			<nav>
 				<ul class="topnav" id="myTopnav">
 					<li><a href="/">Home</a></li>
